@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-lfyp
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/rycole-appstudio/integration1-shiw-tenant/integ-app-phin/hacbs-test-project-lfyp@sha256:4777b9af470f08a4b8d18bd1f4181a4de0f81fb0e729559b8ae2fe762a980f51
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
