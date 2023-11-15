@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-lfyp
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rycole-appstudio/integration1-shiw-tenant/integ-app-phin/hacbs-test-project-lfyp@sha256:4777b9af470f08a4b8d18bd1f4181a4de0f81fb0e729559b8ae2fe762a980f51
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
